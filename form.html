@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <title>Form</title>
+    </head>
+    <!-- <body> -->
+        <form>
+            <fieldset>
+            <legend align="center">Personal Details</legend>
+            <label for="name">Name</label> <input type="text" name="fname" id="name" value="" placeholder="Enter your name"/><br><br>
+            <label for="password">Password</label> <input type="password" name="" id="password"/><br><br>
+            <label>Gender</label> <input type="radio" name="gender" id="male"/><label for="male">Male</label> <input type="radio" name="gender" id="female"/><label for="female">Female</label><br><br>
+            <label>Hobby</label> <input type="checkbox" name="hobby" id="tabletennis"/><label for="tabletennis">Table Tennis</label> <input type="checkbox" name="hobby" id="programming"/><label for="programming">Programming</label><br><br>
+            <label>Message</label> <textarea rows="10" cols="50">Enter your message here</textarea><br><br>
+            <label>Country</label> <select name="" size="1" multiple>
+                                        <option selected value="in">India</option> 
+                                        <option value="am">America</option>
+                                        <option value="ru">Russia</option>
+                                        <option value="ja">Japan</option>
+                                        <option value="af">Africa</option>   
+                                   </select><br><br>
+            <label>Players</label>  <select>
+                                        <optgroup label="India">
+                                            <option>Anirudh</option>
+                                            <option>Harry</option>
+                                            <option>Akash</option>
+                                        </optgroup>
+                                        <optgroup label="China">
+                                            <option>Zhang Jike</option>
+                                            <option>Xu Xin</option>
+                                            <option>Ma Long</option>
+                                        </optgroup>
+                                    </select><br><br>
+            <label>Bats</label> <input list="bats" />
+                                <datalist id="bats">
+                                    <option value="Tibhar">
+                                    <option value="Butterfly">
+                                    <option value="DHS">
+                                    <option value="Donic">
+                                </datalist>
+                                <br><br>
+            <label>Upload file</label> <input type="file" accept="image/*" name="" />
+            <br><br>
+            <input type="submit" value="save"/>
+            <input type="image" src="img/icons8-windows-11.svg" width="20px" alt="Submit button" />
+            <input type="reset" />
+        </fieldset>
+        </form>
+    </body>
+</html>
